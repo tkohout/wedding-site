@@ -1,0 +1,43 @@
+
+@media (min-width: 768px) {
+    .flower {
+        width: 591px
+    }
+}
+
+@media (max-width: 767.98px) {
+    .flower {
+        width: 100%;
+    }
+}
+
+.parrallax-content{
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.parrallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.parrallax:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+}

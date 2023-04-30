@@ -14,9 +14,10 @@
 .parrallax-content{
     position: relative;
     overflow: hidden;
-    height: 80vh;
+    height: 90vh;
     -webkit-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
 }

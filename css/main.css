@@ -1,7 +1,8 @@
 
 @media (min-width: 768px) {
     .flower {
-        width: 591px
+        width: 591px;
+        height: 655px;
     }
 }
 
@@ -11,15 +12,21 @@
     }
 }
 
+@media (max-width: 992px) {
+    .form-nav-link {
+        margin-left: -7px;
+    }
+}
+
 .parrallax-content{
     position: relative;
     overflow: hidden;
     height: 90vh;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: auto 95%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: bottom center;
 }
 .parrallax {
     position: absolute;
@@ -41,4 +48,27 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 120% auto;
+}
+
+.background_1 {
+    background-image: url('../img/background_1.jpg');
+}
+
+.background_2 {
+    background-image: url('../img/background_2.jpg');
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+
+.bg-primary {
+    background-color: #c9b4e8 !important;
+}
+
+.btn-primary {
+    background-color: #c9b4e8 !important;
+    border: 0px;
 }
